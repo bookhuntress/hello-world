@@ -11,7 +11,7 @@ public class HelloWorld {
 		boolean isOK = false;
 		
 		while(userName == null || userName.isEmpty() || counter < MAX_ATTEMPTS) {
-			if (counter >= MAX_ATTEMPTS) {
+			if (counter == MAX_ATTEMPTS) {
 				break;
 			}
 			counter++;
