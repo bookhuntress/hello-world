@@ -3,7 +3,7 @@ package com.sample.main;
 import javax.swing.JOptionPane;
 
 public class HelloWorld {
-	public static final int MAX_ATTEMPTS = 3;
+	public static final int MAX_ATTEMPTS = 2;
 	
 	public static void main(String[] args){
 		String userName = null;
